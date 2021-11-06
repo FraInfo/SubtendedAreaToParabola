@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Main","l":"App"},{"p":"Functions","l":"Function"},{"p":"Functions","l":"Parabola"},{"p":"Functions","l":"PseudoRandomPoints"}];updateSearchResults();
