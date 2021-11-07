@@ -307,7 +307,6 @@ public class App extends javax.swing.JFrame {
         rectWidthLabel.setText("Value of width of rect: " + _b);
         
     }//GEN-LAST:event_onGenerate
-    
     /**
      * @param args the command line arguments
      */
