@@ -281,7 +281,7 @@ public class App extends javax.swing.JFrame {
         //graphic.drawR
         
         //Function to generate points in a rect and to find how many inside points
-        PseudoRandomPoints generator = new PseudoRandomPoints(_a, _b, _a, max);
+        PseudoRandomPoints generator = new PseudoRandomPoints(_a, _b, 0, max);
         
         double insidePoints = 0;
         
@@ -295,7 +295,7 @@ public class App extends javax.swing.JFrame {
                 graphic.setColor(Color.black);
             }
         
-            graphic.fillOval(point.x + halfWidth, -point.y + halfHeight, 2, 2);
+            graphic.fillOval(point.x + halfWidth, -point.y + halfHeight , 2, 2);
         }
                 
         double areaRect = _b * max;
