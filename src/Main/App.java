@@ -275,10 +275,7 @@ public class App extends javax.swing.JFrame {
         
         graphic.setColor(Color.blue);
         
-        //Function to draw rect
-        //graphic.drawLine(_a + halfWidth, (int) -max + halfHeight, _b + halfWidth, (int) -max + halfHeight);
-        //graphic.drawLine(_b + halfWidth, (int) -max + halfHeight, _b + halfWidth, halfHeight);
-        //graphic.drawR
+        //Function to draw rect...
         
         //Function to generate points in a rect and to find how many inside points
         PseudoRandomPoints generator = new PseudoRandomPoints(_a, _b, 0, max);
