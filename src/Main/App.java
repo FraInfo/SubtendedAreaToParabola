@@ -270,7 +270,7 @@ public class App extends javax.swing.JFrame {
         
         for (double x = _a; x < _b; x++){
             double fX = parabola.getFunction(x);
-            if (fX > max) max = fX;
+            max = fX > max ? fX : max;
         }
         
         graphic.setColor(Color.blue);
@@ -304,7 +304,6 @@ public class App extends javax.swing.JFrame {
         rectWidthLabel.setText("Value of width of rect: " + _b);
         
     }//GEN-LAST:event_onGenerate
-    
     /**
      * @param args the command line arguments
      */
